@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-top: 70px; /* Espaço para o menu fixo */
+    background-color: #192E36;
+}
+
+.navbar {
+    background-color: #192E36;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    color: #5AE4A7;
+}
+
+.navbar-toggler-icon {
+    background-color: #5AE4A7;
+}
+
+.nav-link {
+    color: #B0B0B0 !important; /* Cor cinza */
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.hero {
+    background-color: #192E36;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px; /* Espaço para o menu fixo */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-gray {
+    color: #B0B0B0;
+}
+
+.btn-custom-gray {
+    background-color: #B0B0B0;
+    color: #192E36;
+    border: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.btn-custom-gray:hover {
+    transform: translateY(-5px);
+}
+
+#sobre-mim,
+#projetos,
+#contato {
+    color: #5AE4A7;
+}
+
+.card {
+    background-color: #192E36;
+    color: #5AE4A7;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+form .form-control {
+    background-color: #192E36;
+    color: white;
+    border: 1px solid #5AE4A7;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+footer {
+    background-color: #192E36;
+    color: #5AE4A7;
+    border-top: 2px solid #5AE4A7;
+}
